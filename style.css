@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.texts,.text2,.text3{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Left-page{
+    background-image: url('background-pic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40%;
+}
+
+.Right-page{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.texts{
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text2, .question, .submit{
+    
+    padding-left: 10%;
+}
+
+#pic-title{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Odin-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 35%;
+    background-color: rgba(13, 14, 13, 0.5);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 45%;
+}
+
+.ft{
+    color: aliceblue;
+}
+
+input,label {
+    display: block;
+}
+
+input{
+    border-width: thin ;
+}
+
+input:invalid{
+    border-color: red;
+}
+input:valid:focus{
+    border-color: lightblue;
+}
+
+button{
+    background-color: #596d48;
+    border-radius: 12%;
+    font-size: larger;
+    margin-bottom: 5%;
+}
+
+.login{
+    color: #596d48;
+}
+
+.small-text{
+    font-size: large;
+    font-weight: normal;
+}
+
+.user-input{
+    box-shadow: 12px 115px 2px 1px rgba(83, 83, 83, 0.2);
+    gap: 15px;
+}
+
+.submit{
+    padding-top: 5%;
+}
+
+

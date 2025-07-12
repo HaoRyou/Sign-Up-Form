@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="Maindata.js" defer></script>
     <title>Sign Up Form</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="Left-page">
+            <div class="Odin-pic">
+                <img src="odin-lined.png" alt="Odin picture" height="160" width="120">
+                <p id="pic-title">ODIN</p>
+            </div>
+            <div class="footer">
+                <footer>Photo by <a class="ft" href="">Halie West</a> on <a class="ft" href="">Unsplash</a></footer>
+            </div>
+        </div>
+
+        <div class="Right-page">
+            <p class="texts">This is not a real online service! You know you need something like this in your
+                lift to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+            <p class="text2">You <em>know</em> you want to.</p>
+
+            <div class="question">
+                <p class="text3">Let's do this!</p>
+
+                <div class="user-input">
+                    <div style="float:left;margin-right: 60px;">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" value="">
+
+                        <label for="Email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="PASSWORD">PASSWORD</label>
+                        <input id="password" type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div style="float: left;">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname">  
+
+                        <label for="PHONE NUMBER">PHONE NUMBER</label>
+                        <input type="text" pattern="\d{10}" id="phone" name="phone">
+
+
+                        <label id="confirm-password" for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="submit">
+                <button type="submit">Create Account</button>
+                <p class="small-text">Already have an account?  <a class="login" href="https://github.com/HaoRyou/Sign-Up-Form">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
